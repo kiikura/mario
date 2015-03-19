@@ -47,7 +47,16 @@ smb-controllerは以下のイベントを発行します
 - up: 十字キーの上を押した
 - down: 十字キーの下を押した
 - left: 十字キーの左を押した
+- right: 十字キーの右を押した
+- a: Aボタンを押した
+- b: Bボタンを押した
 
+
+```
+document.querySelector("smb-controller").addEventListener("up", function(evt){
+    alert("上がおされました")
+});
+```
 
 # チャレンジ
 - コントローラを置いてみる(<smb-controller>)
