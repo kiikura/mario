@@ -43,7 +43,7 @@ document.re
 ※ マリオタグにはShadow DOMをつかう場合はそのままではダメです
 
 ## イベント
-smb-controllerは以下のイベントを発行します
+### smb-controllerのイベント
 - up: 十字キーの上を押した
 - down: 十字キーの下を押した
 - left: 十字キーの左を押した
@@ -53,9 +53,20 @@ smb-controllerは以下のイベントを発行します
 
 
 ```
+//イベント割り付け例
 document.querySelector("smb-controller").addEventListener("up", function(evt){
     alert("上がおされました")
 });
+```
+
+### アニメーションの終了
+
+- `webkitAnimationEnd`: CSSアニメーションが完了すると発行するイベント。
+
+```
+document.querySelector("smb-mario").addEventListener("webkitAnimationEnd", function(){
+    alert("animation owari");
+]);
 ```
 
 # チャレンジ
