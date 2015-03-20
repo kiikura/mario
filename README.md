@@ -14,12 +14,12 @@ document.re
 # JS基礎
 
 ## DOM操作
-- 要素にHTML要素を追加する: node.innerHTML = "<img src='xxx.png'>";
-- 要素をJSで作って追加する: node.appendChild(document.createElement("<img>"));
-- 要素の属性を取得する:  node.getAttribute("src");
-- 要素の属性を設定する:  node.setAttribute("src","xxx.png");
-- 要素の属性を削除する:  node.removeAttribute("src");
-- タグ名で要素を検索する: document.querySelector("img"); //最初に見つかったimgタグを返す。
+- 要素にHTML要素を追加する: `node.innerHTML = "<img src='xxx.png'>";`
+- 要素をJSで作って追加する: `node.appendChild(document.createElement("<img>"));`
+- 要素の属性を取得する:  `node.getAttribute("src");`
+- 要素の属性を設定する:  `node.setAttribute("src","xxx.png");`
+- 要素の属性を削除する:  `node.removeAttribute("src");`
+- タグ名で要素を検索する: `document.querySelector("img"); `//最初に見つかったimgタグを返す。
 
 
 
