@@ -4,11 +4,11 @@ Cheat Sheet
 
 ## Chrome
 
-`F12`: 開発者ツールを起動
+- `F12`: 開発者ツールを起動
 
-`$0`: 選択中のノード
-`$`: querySelectorのショートカット
-`$$`: querySelectorAllのショットカット
+- `$0`: 選択中のノード
+- `$`: querySelectorのショートカット
+- `$$`: querySelectorAllのショットカット
 
 ## Custom Elements
 
