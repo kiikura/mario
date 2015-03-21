@@ -25,6 +25,7 @@ document.re
 - 要素にHTML要素を追加する: `node.innerHTML = "<img src='xxx.png'>";`
 - 要素をJSで作って追加する: `node.appendChild(document.createElement("<img>"));`
 - 要素の属性を取得する:  `node.getAttribute("src");`
+- 要素の属性が存在するか: `node.hasAttribute("src");`
 - 要素の属性を設定する:  `node.setAttribute("src","xxx.png");`
 - 要素の属性を削除する:  `node.removeAttribute("src");`
 - 要素のクラス属性を操作する： `node.classList.add("hoge")`, `node.classList.remove("hoge")`
