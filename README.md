@@ -2,6 +2,14 @@
 
 Cheat Sheet
 
+## Chrome
+
+`F12`: 開発者ツールを起動
+
+`$0`: 選択中のノード
+`$`: querySelectorのショートカット
+`$$`: querySelectorAllのショットカット
+
 ## Custom Elements
 
 ```
@@ -19,7 +27,8 @@ document.re
 - 要素の属性を取得する:  `node.getAttribute("src");`
 - 要素の属性を設定する:  `node.setAttribute("src","xxx.png");`
 - 要素の属性を削除する:  `node.removeAttribute("src");`
-- タグ名で要素を検索する: `document.querySelector("img"); `//最初に見つかったimgタグを返す。
+- 要素のクラス属性を操作する： `node.classList.add("hoge")`, `node.classList.remove("hoge")`
+- タグ名で要素を検索する(CSSセレクタ): `document.querySelector("img"); `//最初に見つかったimgタグを返す。
 
 
 
