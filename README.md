@@ -1,24 +1,13 @@
-# mario
 
-Cheat Sheet
-
-## Chrome
-
-- `F12`: 開発者ツールを起動
-
-- `$0`: 選択中のノード
-- `$`: querySelectorのショートカット
-- `$$`: querySelectorAllのショットカット
+# Cheat Sheet
 
 ## Custom Elements
 
 ```
-document.re
+document.registerElement("[タグ名]", [プロトタイプ])
 ```
 
-```
 
-```
 # JS基礎
 
 ## DOM操作
@@ -31,21 +20,19 @@ document.re
 - 要素のクラス属性を操作する： `node.classList.add("hoge")`, `node.classList.remove("hoge")`
 - タグ名で要素を検索する(CSSセレクタ): `document.querySelector("img"); `//最初に見つかったimgタグを返す。
 
+## リソース
 
-
-# リソース
-
-## 画像
+### 画像
 - mario-standing.png: マリオの立ち画像
 - mario-jumping.png: マリオのジャンプ画像
 
-## サウンド（おまけ）
+### サウンド（おまけ）
 `SMB.audio.play("サウンド名")`で音が鳴る
 - powerup: パワーアップ
 - powerdown: パワーダウン
 - jump: ジャンプ
 
-## CSS
+### CSS
 マリオタグを作るにあたって事前にスタイルは定義済みです
 - class属性にjumpingをつける -> ジャンプアニメーションを開始する
 - super-mario属性が存在する -> imgを1.4倍する
@@ -79,8 +66,11 @@ document.querySelector("smb-mario").addEventListener("webkitAnimationEnd", funct
 ]);
 ```
 
-# チャレンジ
-- コントローラを置いてみる(<smb-controller>)
-- 2ndコントローラを置いてみる
+## Chrome Developer Tool
+
+- `F12`: 開発者ツールを起動
+- `$0`: 選択中のノード
+- `$`: querySelectorのショートカット
+- `$$`: querySelectorAllのショットカット
 
 
